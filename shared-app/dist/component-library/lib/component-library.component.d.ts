@@ -1,6 +1,6 @@
 import { OnInit } from '@angular/core';
 export declare class ComponentLibraryComponent implements OnInit {
-    test: string;
+    items: string[];
     constructor();
     ngOnInit(): void;
 }

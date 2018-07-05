@@ -3,15 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'lib-component-library',
   template: `
-    <p>
-      {{test}}
+    <p *ngFor="let item of items">
+      {{item}}
     </p>
   `,
   styles: []
 })
 export class ComponentLibraryComponent implements OnInit {
 
-  public test: string = "Test String";
+  public items: string[] = ['1', '2', '3'];
 
   constructor() { }
 
