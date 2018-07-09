@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ItemViewModel } from 'component-library';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  public items: ItemViewModel[] = [
+    new ItemViewModel('Item 1'),
+    new ItemViewModel('Item 2'),
+    new ItemViewModel('Item 3')
+  ];
 }
