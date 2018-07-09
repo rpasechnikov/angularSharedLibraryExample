@@ -1,21 +1,17 @@
 import { Component, OnInit } from '@angular/core';
+import { ItemComponent } from './components/item/item.component';
 
 @Component({
   selector: 'lib-component-library',
-  template: `
-    <p *ngFor="let item of items">
-      {{item}}
-    </p>
-  `,
+  template: ``,
   styles: []
 })
 export class ComponentLibraryComponent implements OnInit {
 
-  public items: string[] = ['1', '2', '3'];
-
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
