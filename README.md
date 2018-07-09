@@ -1,11 +1,11 @@
 # Overview
-Angular 6 shared library being consumed by another angular application, demonstrating the issue with NG directives
+Basic Angular 6 component library being consumed by another angular application. Currently contains an item-list component which can be populated with items. That's all! :)
 
-* consuming-app is an angular application, using shared-app component-library library component inside of itself
+* consuming-app is an angular application
+* shared-app is an application, which has component-library library inside of it
 
 # Notes
-* Commit 0176537bf731131ccb46ab6a99f346f8a4b3e09f shows a working example of using the shared component inside of a consuming app
-* Commit 50e7e31865192f281b8a4c08dffaf5515818a863 shows a no longer working example of the same setup, except also using an *ngFor directive
+* This is probably not the right way of source controlling libraries as each build causes lots of changes in the dist folder. Not sure on the right pattern to do this, without having the consuming app manually building the dependency
 
 # How do I get started?
 * cd into consuming-app and 'ng serve'
