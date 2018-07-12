@@ -1,10 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ItemViewModel } from 'component-library/lib/view-models/item-view-model';
+import { ItemViewModel } from '../../view-models/item-view-model';
 
 @Component({
   selector: 'app-item-collection',
   templateUrl: './item-collection.component.html',
-  styleUrls: ['./item-collection.component.css']
+  styleUrls: ['./item-collection.component.scss']
 })
 export class ItemCollectionComponent implements OnInit {
 

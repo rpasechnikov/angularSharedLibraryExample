@@ -10,3 +10,6 @@ export * from './lib/components/item-collection/item-collection.component';
 
 // Classes
 export * from './lib/view-models/item-view-model';
+
+// SCSS
+//export * from '../../_vars.scss';

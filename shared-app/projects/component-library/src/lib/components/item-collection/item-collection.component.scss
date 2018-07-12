@@ -1,0 +1,9 @@
+//@import '../../_vars.scss';
+@import '../../../../node_modules/scss/_vars';
+//@import 'scss/_vars';
+
+.item-collection {
+    border: solid rgb(196, 39, 39) 1px;
+    color: $test-var;
+    background: $test-another-var;
+}
